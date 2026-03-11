@@ -58,7 +58,8 @@
         "scripts": {
                 "start": "set NODE_ENV=&& node index.js",
                 "dev": "set NODE_ENV=development&& node index.js",
-                "prod": "set NODE_ENV=production&& node index.js"
+                "prod": "set NODE_ENV=production&& node index.js",
+                "postinstall": "cp EryXenX/setMessageReaction.js node_modules/@dongdev/fca-unofficial/src/api/messaging/setMessageReaction.js"
         },
         "author": "NTKhang",
         "license": "MIT",
